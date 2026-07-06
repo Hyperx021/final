@@ -1,0 +1,4 @@
+git rm -r --cached config/__pycache__
+git rm -r --cached estoque/__pycache__
+git rm -r --cached fornecedores/__pycache__
+git rm --cached db.sqlite3
