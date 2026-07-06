@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    image: joao123456s/final:latest
+    container_name: final
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
